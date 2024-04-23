@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!--========== Title ==========-->
+    <title>MINI PROJECT</title>
+  </head>
+  <body>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="/" class="nav_logo">
+          <b>
+            MINI
+            <span>PROJECT</span>
+          </b>
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link">HOME</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">ABOUT</a>
+            </li>
+          
+            <li class="nav_item">
+              <a href="#foods" class="nav_link">CONTACT</a>
+            </li>
+            <li class="nav_item">
+            </li>
+
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+          <!--When clicked activate the class "opened"
+          to the button tag as well to the 4 SVG lines-->
+          <button
+            class="menu"
+            aria-label="Abrir Menu"
+            onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+          >
+            <svg width="40" height="41" viewBox="0 0 100 100">
+              <path
+                class="line line1"
+                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+              />
+              <path class="line line2" d="M 20,50 H 80" />
+              <path
+                class="line line3"
+                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--========== HOME ==========-->
+      <section class="home" id="home">
+        <div class="home_container bd-container bd-grid">
+          <div class="home_data">
+            <h1 class="home_title">JASA PEMBUATAN WEB</h1>
+            <h2 class="home_subtitle">SELAMAT DATANG 😍</h2>
+            <a href="https://wa.me/6285811777392" class="button">PESAN</a>
+          </div>
+
+          <img
+            src="https://cdni.iconscout.com/illustration/premium/thumb/programmer-doing-programming-3454631-2918520.png"
+            alt="Prato de comida saudável"
+            class="home_img"
+          />
+        </div>
+      </section>
+
+      <!--========== ABOUT ==========-->
+      <section class="about section bd-container" id="about">
+        <div class="about_container bd-grid">
+          <div class="about_data">
+            <span class="section-subtitle about_initial">ABOUT</span>
+            <h2 class="section-title about_initial">
+              SAYA ADALAH SEORANG DEVELOPER WEB. JASA INI SAYA GUNAKAN KHUSUS UNTUK MAHASISWA
+            </h2>
+            <p class="about_description">
+             
+            </p>
+            <a href="#app" class="button">INFO LEBIH LANJUT</a>
+          </div>
+
+          <img
+            src="https://cdn0.iconfinder.com/data/icons/fillicons-information-technology/1550/programmer_software_developer-1024.png"
+            alt="Ingredientes naturais"
+            class="about_img"
+          />
+        </div>
+      </section>
+
+      
+
+      <!--========== FOODS ==========-->
+      <section class="foods section bd-container" id="foods">
+        <span class="section-subtitle">HARGA</span>
+        <h2 class="section-title">HANYA CONTOH</h2>
+
+        <div class="foods_container bd-grid">
+          <div class="foods_content">
+            <img src="https://freevector.co/wp-content/uploads/2012/06/codeigniter.png" alt="" class="foods_img" />
+            <h3 class="foods_name">CodeIgniter</h3>
+            <span class="foods_detail">CONTOH</span>
+            <span class="foods_price">$25.00</span>
+
+            <a href="https://wa.me/6285811777392" class="button foods_button">
+            </a>
+          </div>
+
+          <div class="foods_content">
+            <img src="https://cdn-icons-png.flaticon.com/512/2210/2210197.png" alt="" class="foods_img" />
+            <h3 class="foods_name">Landing page</h3>
+            <span class="foods_detail">CONTOH</span>
+            <span class="foods_price">$20.00</span>
+
+            <a href="https://wa.me/6285811777392" class="button foods_button">
+            </a>
+          </div>
+
+          <div class="foods_content">
+            <img src="https://logospng.org/download/laravel/logo-laravel-icon-1024.png" alt="" class="foods_img" />
+            <h3 class="foods_name">Laravel</h3>
+            <span class="foods_detail">CONTOH</span>
+            <span class="foods_price">R$16.00</span>
+
+            <a href="https://wa.me/6285811777392" class="button foods_button">
+            </a>
+          </div>
+        </div>
+      </section>
+          <img src="" alt="" class="app_img" />
+        </div>
+      </section>
+
+      <!--========== CONTACT US ==========-->
+      <section class="contact section bd-container" id="contact">
+        <div class="contact_container bd-grid">
+          <div class="contact_data">
+            <span class="section-subtitle contact_initial"
+              >Contact</span
+            >
+            <h2 class="section-title contact_initial"></h2>
+             pesan di samping yaah! 😉
+            </p>
+          </div>
+
+          <div class="contact_button">
+            <a href="https://wa.me/6285811777392" class="button">pesan</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+      <p class="footer_copy">
+        &#169; <i class="fa fa-copyright" aria-hidden="true"></i>
+        <a
+          href=""
+          class="footer_link"
+          target="_blank"
+        >
+          Mini Project
+        </a>
+      </p>
+    </footer>
+
+    <!--========== SCROLL REVEAL LIBRARY ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
